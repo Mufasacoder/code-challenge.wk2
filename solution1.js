@@ -18,3 +18,4 @@ function swapCase(inputStr){
 let inputStr ="The Quick Brown Fox";
 let outputStr = swapCase(inputStr);
 console.log(outputStr);
+ 

@@ -3,7 +3,7 @@ function isPrime(p){
     if (p <= 1) return false 
 
     if (p <=3) return true
-    //if (n % 2 === 0 || n % 3 === 0) 
+    if (p % 2 === 0 || p % 3 === 0) 
     return false 
 
     for (let i = 5; i*i <= p; i += 6){
